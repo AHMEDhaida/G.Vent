@@ -1,0 +1,196 @@
+body{
+background-image:URL('IMEG4.JPG');
+background-attachment:fixed;
+background-size:cover;
+background-position:middle;
+padding:0px;
+margin:0px;
+}
+p{
+text-align:right;		
+}
+button{
+	margin-right:25px;
+	font-size:20x;
+	outline:4px yellow;
+}
+p button a{
+text-decoration:none;	
+}
+.rect {
+    position: absolute;
+    width: 30%;
+    padding-top: 24px;
+    height: 150px;
+    background: green;
+    text-align: center;
+    margin-left: 69%;
+    font-size: 18px;
+}
+.aler{
+width:40%;height:150px;position:absolute;margin:auto;text-align:center;
+background:rgba(5, 54, 193, 0.97);
+border-radius:10px;
+font-size:25px;
+margin-left:460px;
+    padding-top:91px;
+    margin-top:167px;	
+}
+.aler a{
+	color:rgb(2, 255, 10);
+	margin-left:90%;
+	margin-top:80px;
+}
+#ffg{
+margin-top: 7px;
+    margin-left: 15px;	
+}
+#ffg ul {
+	background-color:green;
+list-style:none;
+color:white;
+padding:0px;margin:0px;
+position:relative;
+}
+#ffg ul li {
+	
+float:left;
+text-align:center;
+width: 185px;
+height:35px;
+background-color:black;
+opacity:1.7;
+line-height :40px;
+text-align:center;
+margin-left:2px;
+position:relative;
+margin:1px;padding:0px;
+border-radius:5px;
+}
+#ffg ul li a{
+	color:white;
+	font-size:24px;
+	text-decoration:none;
+}
+#ffg ul li a:hover{
+	background-color:#e8f705;
+	color:black;
+}
+img{
+	float:left;
+}
+.tete_index div{
+	display: inline-block;
+    margin: 25px 12px 173px 25px;
+}
+
+
+div div a:hover{
+	color:#CCCCFF;
+}
+.hea{margin:5px;}
+.client-form{
+	padding-top:2px;
+	font-size:18px;
+	margin-top:-150px;
+    color: #fff;
+	width:60%;
+	margin-left:20%;
+	background:#1f8ad6;
+	padding-left:25px;
+	border-radius:10px;
+}
+.client-form input{
+	font-size:20px;
+	background:;
+	margin:5px;
+	width:250px;
+	height:25px;
+	border:none;
+	text-align:center;
+}
+.client-form input[type=submit]{
+	background:rgb(0, 128, 0);
+	width:80px;
+	height:30px;
+	border:none;
+	border-radius:5px;
+	margin-left:150px;
+}
+
+.client-form  div table{
+	margin-left:0px;
+	margin-top:0px;
+	width:590px;
+	
+	text-align:center;
+   
+}
+.client-form table TH{
+	background:olive;
+	font-size:22px;
+}.client-form table td{font-size:30px;}
+.client-form  .art{
+	margin-left:50px;
+	width:610px;
+	overflow-y:scroll;
+	max-height:125px;
+}
+.client-form .hrefs a{
+	margin:10px;
+	font-size:30px;
+	color:rgb(4, 4, 10);
+	cursor: pointer;
+    text-decoration: none;
+	text-decoration:none;	
+}
+.client-form .hrefs a:hover{
+color:	rgb(0, 128, 0);
+}
+.client-form .hrefs{
+	margin-left:410px;
+}
+.client-form label{
+font-size:18px;	
+}
+.qte label{
+	font-size:22px;
+}
+.client-form .qte input[type=number]{
+	width:150px;
+	height:30px;
+	border-radius:4px;
+}
+.rect span.recette{
+	position: absolute;
+    top: 72px;
+    right: 124px;
+    font-size: 22px;
+}
+#hrin{
+	position: absolute;
+    top: 112px;
+    text-decoration:none;
+    right: 24px;
+	font-size: 38px;
+}
+#hrin a{text-decoration:none;}
+
+.search-wrapper{
+	position: absolute;
+    z-index: 9;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    left: 7px;
+    width: 94%;
+    max-height: 200px;
+    overflow-y: scroll;
+    color: #333;
+    text-align: center;
+    top: 36px;
+}
+.search-wrapper>div{
+	padding: 5px;
+    border-bottom: 1px solid #ddd;
+	cursor: pointer;
+}

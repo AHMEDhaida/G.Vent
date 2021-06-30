@@ -1,0 +1,94 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:yellow;
+background-image:url('market.jpg');
+}
+ul{
+	display:inline;
+list-style:none;
+color:white;
+padding:0px;left:21%;    margin-top:0;
+position:absolute;
+}
+ul li {
+display:inline-block;
+text-align:center;
+width:230px;
+height:35px;
+background-color:black;
+opacity:1.7;
+line-height :40px;
+text-align:center;
+margin-left:2px;
+position:relative;
+margin:1px;padding:0px;
+border-radius:5px;
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:24px;
+}
+ul li a:hover{
+	color:#e8f705;
+}
+
+h2{
+	margin-top:0;
+	font-size:40px;
+	color:red;
+	text-align: center;
+}
+.rayon-header{
+	display: inline-block;
+    width: 20%;
+}
+.rayon-header img{
+	    float: left;
+max-width: 200px;
+margin-right: 20px;
+}
+
+.rayon-body{
+	position: absolute;
+    margin-top: 52px;
+	width: 80%;
+    display: inline-block;
+    float: right;
+	    padding: 10px;
+}
+.rayon-body>div{
+	width: 100%;
+	overflow: auto;
+	padding: 10px;
+}
+
+.rayon-wrapper{
+	display: table;
+    white-space: nowrap;
+    width: 100%;
+    overflow: auto;
+	color: #e4ff04;
+}
+.rayon-wrapper .rayon-content {
+	width: 100px;
+    display: table-cell;
+	text-align: center;
+	min-width: 150px;
+}
+.rayon-wrapper .rayon-content .rayon-name{
+	    background-color: #000;
+    padding: 10px;
+}
+.rayon-wrapper .rayon-content .rayon-etagere{
+	
+}
+.rayon-wrapper .rayon-content .etagere-num{
+	    background-color: rgba(0, 0, 0, 0.53);
+    padding: 10px;
+}
